@@ -7,7 +7,7 @@ def call(Stinrg name){
     pipeline{
       agent any
       stage('print'){
-        script{
+        steps{
             object.print(name)
         }
       }
