@@ -8,7 +8,7 @@ def call(String name){
       agent any
       stage('print'){
         steps{
-            object.print(name)
+            object.print(${name})
         }
       }
 
