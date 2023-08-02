@@ -1,6 +1,6 @@
 import com.tothenew.utility
 
-def call(Stinrg name){
+def call(String name){
 
     object = new  utility()
 
