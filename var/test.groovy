@@ -1,12 +1,21 @@
+import com.tothenew.utility
 
+def call(Stinrg name){
 
-def call(String name){
-   sh '''echo $name'''
-    
-    
+    object = new  utility()
+
+    pipeline{
+      stage('print'){
+        script{
+            object.print(name)
+        }
       }
 
 
 
 
 
+    }
+     
+    
+}
