@@ -1,4 +1,4 @@
-import com.tothenew.utility
+import src.com.tothenew.utility
 
 def call(String name){
 
